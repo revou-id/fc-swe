@@ -149,7 +149,7 @@ footer{
 http://eepurl.com/dhjgB5
 */
 
-/* Dekstop */
+/* tablet */
 @media screen and (min-width: 768px) {
 	.slider img {
 		height: 400px;
@@ -164,6 +164,7 @@ http://eepurl.com/dhjgB5
 	}
 	
 }
+/* deksop */
 
 @media screen and (min-width: 1024px) {
 	.headquarter-gallery img {

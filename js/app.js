@@ -20,14 +20,15 @@ function showDivs(n) {
 
 setInterval(() => {
   plusDivs(1);
-}, 1000);
+}, 2000);
 
 function validateForm() {
+  // Get input value
   var name = document.forms['message-form']['full-name'].value;
   var date = document.forms['message-form']['birth-date'].value;
   var gender = document.forms['message-form']['gender'].value;
   var messages = document.forms['message-form']['messages'].value;
-
+  // validate input
   if (name == '' || date == '' || gender == '' || messages == '') {
     alert('Input tidak boleh kosong');
     return false;
