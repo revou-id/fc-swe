@@ -100,7 +100,7 @@ header{
 	margin-bottom: 20px;
 }
 .hero-subtitle{
-	margin-bottom: 20px;
+	margin-bottom: 60px;
 }
 .hero-img{
 	width: 800px;
@@ -151,6 +151,12 @@ http://eepurl.com/dhjgB5
 
 /* tablet */
 @media screen and (min-width: 768px) {
+	.hero-subtitle{
+		margin-bottom: 40px;
+	}
+	.hero-title{
+		font-size: 60px;
+	}
 	.slider img {
 		height: 400px;
 		width: 100%;
@@ -164,9 +170,15 @@ http://eepurl.com/dhjgB5
 	}
 	
 }
-/* deksop */
+/* dekstop */
 
 @media screen and (min-width: 1024px) {
+	.hero-title{
+		font-size: 80px;
+	}
+	.hero-subtitle{
+		margin-bottom: 20px;
+	}
 	.headquarter-gallery img {
 		height: 200px;
 		width: 100%;

@@ -4,7 +4,7 @@ showDivs(slideIndex);
 function plusDivs(n) {
   showDivs((slideIndex += n));
 }
-
+// slideshow untuk bikin slider di hero section homepage
 function showDivs(n) {
   var i;
   var imgList = document.getElementsByClassName('img-slideshow');
@@ -33,7 +33,7 @@ function validateForm() {
     alert('Input tidak boleh kosong');
     return false;
   }
-
+  // menampilkan value input di halaman lain
   document.getElementById('sender-full-name').innerText = name;
   document.getElementById('sender-birth-date').innerText = date;
   document.getElementById('sender-gender').innerText = gender;
