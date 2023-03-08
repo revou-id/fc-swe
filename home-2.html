@@ -5,25 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <style>
-      .content {
-        flex-direction: row;
-        display: flex;
-      }
-      .content > div {
-        display: flex;
-        flex: 1;
-        align-content: center;
-        justify-content: center;
-      }
-      .table_person {
-        border: 5px solid black;
-      }
-      footer > p {
-        text-align: end;
-      }
-    </style>
   </head>
   <body>
     <!-- header /navbar -->
@@ -98,8 +79,7 @@
         <div class="container">
           <div class="form-section">
             <form name="message-form" onsubmit="return validateForm()">
-              Nama:
-              <input placeholder="name" type="text" name="full-name" required />
+              Nama: <input placeholder="Nama" type="text" name="full-name" />
               <br />
 
               Tanggal Lahir:
@@ -111,13 +91,6 @@
               <label for="male">Laki-laki</label>
               <input type="radio" id="female" name="gender" value="Perempuan" />
               <label for="female">Perempuan</label>
-              <input
-                type="radio"
-                id="non-binary"
-                name="gender"
-                value="Non-binary"
-              />
-              <label for="non-binary">Non Binary</label>
               <br />
 
               Pesan:
@@ -126,7 +99,6 @@
 
               <input type="submit" value="Submit" />
             </form>
-
             <div class="form-output">
               <p>Nama: <span id="sender-full-name"></span></p>
               <p>Tanggal Lahir: <span id="sender-birth-date"></span></p>
@@ -148,9 +120,4 @@
       </div>
     </footer>
   </body>
-  <script>
-    // js kita
-    console.log('HAlo dari javascript internal');
-  </script>
-  <script src="/js/app.js"></script>
 </html>

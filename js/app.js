@@ -1,3 +1,4 @@
+console.log('Halo dari JS Luar');
 var slideIndex = 1;
 showDivs(slideIndex);
 

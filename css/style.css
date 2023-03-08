@@ -122,7 +122,7 @@ header{
 }
 .headquarter-title{
 	font-weight: 800;
-	font-size: 30px;
+	font-size: 18px;
 }
 .headquarter-gallery{
 	display: flex;
@@ -148,9 +148,16 @@ footer{
 /* Sign up for the full Flexbox course here:
 http://eepurl.com/dhjgB5
 */
+@media screen and (max-with: 360px) {
+	/* list mobile doang */
+	
+}
 
 /* tablet */
 @media screen and (min-width: 768px) {
+	.headquarter-title{
+		font-size: 40px;
+	}
 	.hero-subtitle{
 		margin-bottom: 40px;
 	}
@@ -173,6 +180,9 @@ http://eepurl.com/dhjgB5
 /* dekstop */
 
 @media screen and (min-width: 1024px) {
+	.headquarter-title{
+		font-size: 80px;
+	}
 	.hero-title{
 		font-size: 80px;
 	}

@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* Dekstop */
+header{
+  width: 100%;
+}
+.container{
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.logo{
+  height: 100%;
+  width: 50px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+.menu-item{
+  border: 1px solid black;
+    padding: 4px 10px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.hero-title{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    row-gap: 40px;
+}
+.hero-title > h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.hero-title > h6 {
+  font-size: 20px;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  gap: 40px;
+}
+
+
+.about-contact{
+  display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.about-img{
+  height: 100%;
+  width: 400px;
+}
+.content-caption > p{
+  color: gray;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.content-person {
+  display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.content-person > img {
+  border-radius: 50%;
+}
+.person-info {
+  display: flex;
+  flex-direction: column;
+}
+.person-info > p {
+  color: gray;
+    font-style: italic;
+    margin-top: 10px;
+}
+.contact{
+  width: 40%;
+}
+.border{
+  border: 2px solid gray;
+    width: 100px;
+}
+.information-title{
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.information-list{
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.information-list > li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.list-number {
+  background-color: gray;
+    color: white;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 24px;
+}
+/* Card  About*/
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: rgba(123, 87, 106, 0.23);
+  padding: 40px;
+}
+.card-title > h4 {
+
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+form {
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input{
+  display: flex;
+    flex-direction: column;
+}
