@@ -134,7 +134,7 @@ header{
 
 /* footer */
 footer{
-	background: bisque;
+	background: pink;
 	padding: 20px;
 	font-size: 20px;
 	font-weight: 600;
@@ -150,7 +150,7 @@ http://eepurl.com/dhjgB5
 */
 @media screen and (max-with: 360px) {
 	/* list mobile doang */
-	
+
 }
 
 /* tablet */
@@ -175,11 +175,15 @@ http://eepurl.com/dhjgB5
 		height: 100px;
 		width: 100%;
 	}
+	footer{
+		background-color: black;
+	}
 	
 }
 /* dekstop */
 
 @media screen and (min-width: 1024px) {
+
 	.headquarter-title{
 		font-size: 80px;
 	}
@@ -192,5 +196,8 @@ http://eepurl.com/dhjgB5
 	.headquarter-gallery img {
 		height: 200px;
 		width: 100%;
+	}
+	footer {
+		background: bisque;
 	}
 }
