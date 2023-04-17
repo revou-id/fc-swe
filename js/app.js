@@ -5,11 +5,12 @@ showDivs(slideIndex);
 function plusDivs(n) {
   showDivs((slideIndex += n));
 }
-// slideshow untuk bikin slider di hero section homepage
+//slideshow untuk bikin slider di hero section homepage
 function showDivs(n) {
   var i;
   var imgList = document.getElementsByClassName('img-slideshow');
   if (n > imgList.length) slideIndex = 1;
+  // slide index value 3, karena imglist.length = slideIndex
   else if (n < 1) slideIndex = imgList.length;
 
   for (i = 0; i < imgList.length; i++) {
@@ -25,10 +26,10 @@ setInterval(() => {
 
 function validateForm() {
   // Get input value
-  var name = document.forms['message-form']['full-name'].value;
-  var date = document.forms['message-form']['birth-date'].value;
-  var gender = document.forms['message-form']['gender'].value;
-  var messages = document.forms['message-form']['messages'].value;
+  let name = document.forms['message-form']['full-name'].value;
+  let date = document.forms['message-form']['birth-date'].value;
+  let gender = document.forms['message-form']['gender'].value;
+  let messages = document.forms['message-form']['messages'].value;
   // validate input
   if (name == '' || date == '' || gender == '' || messages == '') {
     alert('Input tidak boleh kosong');
